@@ -17,7 +17,3 @@ def page_not_found(error):
     return render_template('page_not_found.html'), 404
 
 
-# def create_token():
-#     created_token=jwt.encode({ "some":"payload"},"secret_text",algorithm="HS256")
-#     print(created_token)
-#     return "Done"
